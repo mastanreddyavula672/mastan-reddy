@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avula Mastan Reddy | Aspiring Data Analyst</title>
+  <meta name="description" content="Portfolio of Avula Mastan Reddy — Aspiring Data Analyst specializing in Python, SQL, MongoDB, Microsoft Excel, and Power BI.">
+  <meta name="author" content="Avula Mastan Reddy">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Avula Mastan Reddy | Aspiring Data Analyst">
+  <meta property="og:description" content="Entry-level Data Analyst portfolio showcasing projects, technical competencies, certifications, and academic background.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Remix Icon CDN for clean, fast icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Home">
+        <span class="monogram">AMR</span>
+        <span class="brand-text">Mastan Reddy<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-action-mobile">
+          <a href="./ASSETS/Avula_Mastan_Reddy_Data_Analyst_Resume.pdf" class="btn btn-outline" download>
+            <i class="ri-download-2-line"></i> Download Resume
+          </a>
+        </div>
+      </nav>
+
+      <div class="nav-actions-desktop">
+        <a href="./ASSETS/Avula_Mastan_Reddy_Data_Analyst_Resume.pdf" class="btn btn-sm btn-outline" download>
+          <i class="ri-download-2-line"></i> Resume
+        </a>
+        <a href="#contact" class="btn btn-sm btn-primary">Hire Me</a>
+      </div>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-text-block">
+          <div class="badge-status">
+            <span class="status-pulse"></span>
+            Available for Entry-Level Data Analyst Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Avula Mastan Reddy</span>
+          </h1>
+          <p class="hero-subtitle">
+            Aspiring Data Analyst & B.Tech Graduate
+          </p>
+          <p class="hero-description">
+            Equipped with foundational expertise in Python, SQL, MongoDB, Excel, and Power BI. Focused on translating raw information into actionable business insights, solving real-world data problems, and building analytical pipelines.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <i class="ri-map-pin-2-line"></i>
+              <span>Hyderabad, Telangana</span>
+            </div>
+            <div class="meta-item">
+              <i class="ri-graduation-cap-line"></i>
+              <span>B.Tech Graduate (2026)</span>
+            </div>
+          </div>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <i class="ri-bar-chart-grouped-line"></i> View Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-outline" download>
+              <i class="ri-file-download-line"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="ri-mail-send-line"></i> Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="mailto:mastanreddyavula672@gmail.com" aria-label="Email" class="social-link">
+              <i class="ri-mail-line"></i>
+            </a>
+            <a href="tel:8074479309" aria-label="Phone" class="social-link">
+              <i class="ri-phone-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="telemetry-card">
+            <div class="telemetry-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="telemetry-title">profile_telemetry.sql</span>
+            </div>
+            <div class="telemetry-body">
+              <pre><code><span class="code-kw">SELECT</span> candidate_name, primary_focus
+<span class="code-kw">FROM</span> emerging_talent
+<span class="code-kw">WHERE</span> candidate = <span class="code-str">'Avula Mastan Reddy'</span>;
+
+<span class="code-comment">/* Output Preview */</span>
+&gt; Role: Aspiring Data Analyst
+&gt; Core: Python | SQL | Power BI | Excel
+&gt; Location: Hyderabad, TS
+&gt; Status: Ready to Deploy</code></pre>
+            </div>
+            <div class="telemetry-footer">
+              <div class="metric-pill">
+                <span class="metric-num">7.5</span>
+                <span class="metric-lbl">B.Tech CGPA</span>
+              </div>
+              <div class="metric-pill">
+                <span class="metric-num">5+</span>
+                <span class="metric-lbl">Certifications</span>
+              </div>
+              <div class="metric-pill">
+                <span class="metric-num">93%</span>
+                <span class="metric-lbl">Inter Score</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Career Objective -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">About & Objective</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card primary-about">
+            <div class="card-icon"><i class="ri-user-search-line"></i></div>
+            <h3>Professional Summary</h3>
+            <p>
+              Motivated B.Tech graduate and aspiring Data Analyst with foundational knowledge in Python, SQL, Excel, and Power BI. Experienced in academic project development and practical internship exposure, complemented by additional hands-on knowledge in MongoDB and Salesforce ecosystems.
+            </p>
+            <p>
+              Eager to apply analytical, problem-solving, and data-handling abilities to drive clarity and efficiency in entry-level data roles.
+            </p>
+          </div>
+
+          <div class="about-card objective-about">
+            <div class="card-icon"><i class="ri-compass-3-line"></i></div>
+            <h3>Career Objective</h3>
+            <p>
+              Seeking an entry-level opportunity where I can leverage my technical and analytical foundation, learn from real-world datasets and dynamic operational problems, and contribute directly to high-impact, business-focused solutions.
+            </p>
+
+            <div class="languages-box">
+              <h4 class="subhead-sm"><i class="ri-translate-2"></i> Languages Spoken</h4>
+              <div class="pill-group">
+                <span class="pill">Telugu</span>
+                <span class="pill">English</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section bg-surface" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Capabilities</h2>
+          <p class="section-subtext">Categorized technical skills directly applied in data querying, reporting, and software systems.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="icon-circle"><i class="ri-terminal-box-line"></i></div>
+              <h3>Programming</h3>
+            </div>
+            <p class="category-desc">Core language for analytical logic, data processing, and scripting.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-type">Primary Language</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data & Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="icon-circle"><i class="ri-database-2-line"></i></div>
+              <h3>Data & Database</h3>
+            </div>
+            <p class="category-desc">Structured querying, relational data schemas, and document store systems.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-type">Relational Database</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 82%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MongoDB</span>
+                  <span class="skill-type">NoSQL / Document Store</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Analytics & BI -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="icon-circle"><i class="ri-pie-chart-2-line"></i></div>
+              <h3>Analytics & BI</h3>
+            </div>
+            <p class="category-desc">Data reporting, business dashboards, metric modeling, and spreadsheets.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Microsoft Excel</span>
+                  <span class="skill-type">Spreadsheets & Analysis</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Power BI</span>
+                  <span class="skill-type">Visual Dashboards</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 78%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enterprise & Systems -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="icon-circle"><i class="ri-cpu-line"></i></div>
+              <h3>Enterprise & Systems</h3>
+            </div>
+            <p class="category-desc">Certified exposure to enterprise CRM tools and hardware systems.</p>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Salesforce</span>
+                  <span class="skill-type">CRM & Cloud Platform</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 72%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Embedded Systems</span>
+                  <span class="skill-type">Systems Architecture</span>
+                </div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-fill" style="width: 68%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Work</span>
+          <h2 class="section-title">Academic & Technical Projects</h2>
+        </div>
+
+        <div class="projects-container">
+          <article class="project-featured-card">
+            <div class="project-main-meta">
+              <div class="project-type-tag"><i class="ri-folder-shield-2-line"></i> Final Year Academic Project</div>
+              <h3 class="project-heading">Hematovision</h3>
+              <p class="project-desc">
+                A comprehensive final-year engineering initiative demonstrating practical project development, technical implementation, and end-to-end problem solving. Structured to integrate computational and visual analytical methods for blood/sample data evaluation.
+              </p>
+              
+              <div class="project-highlights">
+                <h4>Core Implementation Pillars:</h4>
+                <ul>
+                  <li><i class="ri-check-line"></i> Formulated practical engineering architecture for sample detection and processing.</li>
+                  <li><i class="ri-check-line"></i> Executed core analytical workflows bridging technical theory with functional implementation.</li>
+                  <li><i class="ri-check-line"></i> Engineered structured pipelines for reliable outcomes and evaluation.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Data Analysis</span>
+                <span class="tech-badge">Applied Problem Solving</span>
+                <span class="tech-badge">Technical Implementation</span>
+              </div>
+            </div>
+
+            <div class="project-aside">
+              <div class="status-box">
+                <span class="status-label">Academic Milestone</span>
+                <span class="status-value">Final Year Capstone</span>
+                <span class="status-inst">Kallam Harinadha Reddy Institute of Technology</span>
+              </div>
+              <div class="status-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline full-width">
+                  <i class="ri-github-line"></i> Check Repository
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internship Experience -->
+    <section class="section bg-surface" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Work History</span>
+          <h2 class="section-title">Internship Experience</h2>
+          <p class="section-subtext">Hands-on industrial and practical technical training programs completed during academic tenure.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Long-Term Internship -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge">Core Practical Training</div>
+              <h3 class="timeline-role">Long-Term Technical Intern</h3>
+              <span class="timeline-company"><i class="ri-building-line"></i> Practical Internship Exposure</span>
+              <p class="timeline-desc">
+                Completed hands-on long-term internship program focused on practical industry exposure, technical workflow immersion, and active problem solving across real-world application cycles.
+              </p>
+              <div class="pill-group">
+                <span class="pill">Practical Workflow</span>
+                <span class="pill">Data Handling</span>
+                <span class="pill">Technical Exposure</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Short-Term Internship -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-badge">Foundational Training</div>
+              <h3 class="timeline-role">Short-Term Technical Intern</h3>
+              <span class="timeline-company"><i class="ri-briefcase-line"></i> Specialized Technical Internship</span>
+              <p class="timeline-desc">
+                Engaged in dedicated short-term practical training sessions, expanding baseline operational acumen, collaborative execution, and foundational engineering principles.
+              </p>
+              <div class="pill-group">
+                <span class="pill">Rapid Execution</span>
+                <span class="pill">Applied Concepts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-grid">
+          <!-- B.Tech -->
+          <div class="edu-card featured-edu">
+            <div class="edu-score-badge">7.5 CGPA</div>
+            <span class="edu-degree">Bachelor of Technology (B.Tech)</span>
+            <h3 class="edu-school">Kallam Harinadha Reddy Institute of Technology</h3>
+            <span class="edu-year"><i class="ri-calendar-line"></i> Graduating Class of 2026</span>
+            <p class="edu-details">
+              Undergraduate program centered around engineering disciplines, foundational data structures, database management systems, algorithms, and analytical project methodologies.
+            </p>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="edu-card">
+            <div class="edu-score-badge">93%</div>
+            <span class="edu-degree">Intermediate Education</span>
+            <h3 class="edu-school">Higher Secondary Board</h3>
+            <span class="edu-year"><i class="ri-calendar-line"></i> Completed 2022</span>
+            <p class="edu-details">
+              Concentration in Mathematics, Physics, and Chemistry, cultivating quantitative, logical, and analytical reasoning foundations.
+            </p>
+          </div>
+
+          <!-- SSC -->
+          <div class="edu-card">
+            <div class="edu-score-badge">90%</div>
+            <span class="edu-degree">Secondary School Certificate (SSC)</span>
+            <h3 class="edu-school">Secondary Board of Education</h3>
+            <span class="edu-year"><i class="ri-calendar-line"></i> Completed 2020</span>
+            <p class="edu-details">
+              Strong academic record in core scientific principles, basic mathematics, and analytical fundamentals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section bg-surface" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Professional Certifications</h2>
+          <p class="section-subtext">Verified industry certifications spanning database architectures, cloud CRM, and technical skills.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="ri-database-line"></i></div>
+            <div class="cert-content">
+              <h3>MongoDB Certification</h3>
+              <span class="cert-issuer">MongoDB University / Professional Ecosystem</span>
+              <p>Validation of document databases, CRUD operations, indexing concepts, and unstructured data handling.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="ri-cloud-line"></i></div>
+            <div class="cert-content">
+              <h3>Salesforce Certification</h3>
+              <span class="cert-issuer">Salesforce Ecosystem</span>
+              <p>Understanding CRM architectures, cloud platform administration, entity modeling, and business logic execution.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="ri-award-line"></i></div>
+            <div class="cert-content">
+              <h3>EduSkills Practical Internship Exposure</h3>
+              <span class="cert-issuer">EduSkills Academy</span>
+              <p>Comprehensive structured training and industry internship exposure centered around practical tech domains.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="ri-cpu-line"></i></div>
+            <div class="cert-content">
+              <h3>Embedded Systems Certification</h3>
+              <span class="cert-issuer">Technical Certification Board</span>
+              <p>Foundations in embedded micro-controllers, system architectures, hardware-software interfacing, and execution.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="ri-code-s-slash-line"></i></div>
+            <div class="cert-content">
+              <h3>CodeTantra Certification</h3>
+              <span class="cert-issuer">CodeTantra Tech Solutions</span>
+              <p>Structured programming certification validating algorithmic syntax, code logic, and functional execution.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Highlights / Strengths Section -->
+    <section class="section" id="highlights">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Key Strengths</span>
+          <h2 class="section-title">Why Consider Mastan Reddy?</h2>
+        </div>
+
+        <div class="strengths-grid">
+          <div class="strength-card">
+            <div class="strength-number">01</div>
+            <h3>Structured Data Acumen</h3>
+            <p>Practical grounding in relational SQL schema designs, data querying, filtering, aggregations, and MongoDB document manipulation.</p>
+          </div>
+          <div class="strength-card">
+            <div class="strength-number">02</div>
+            <h3>Business Intelligence & BI</h3>
+            <p>Hands-on reporting with Power BI and Microsoft Excel to distill numbers into actionable graphical performance metrics.</p>
+          </div>
+          <div class="strength-card">
+            <div class="strength-number">03</div>
+            <h3>Technical Adaptability</h3>
+            <p>Demonstrated agility through multiple cross-discipline certifications including Salesforce, Embedded Systems, and CodeTantra.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section bg-surface" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <span class="section-tag">Communication</span>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-sub">
+              I am actively seeking an entry-level Data Analyst or related analytical role. Feel free to reach out directly via email, phone, or GitHub.
+            </p>
+
+            <div class="contact-details-list">
+              <a href="mailto:mastanreddyavula672@gmail.com" class="contact-item">
+                <div class="contact-icon"><i class="ri-mail-line"></i></div>
+                <div class="contact-text">
+                  <span class="contact-label">Email</span>
+                  <span class="contact-val">mastanreddyavula672@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:8074479309" class="contact-item">
+                <div class="contact-icon"><i class="ri-phone-line"></i></div>
+                <div class="contact-text">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-val">+91 80744 79309</span>
+                </div>
+              </a>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="ri-map-pin-line"></i></div>
+                <div class="contact-text">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-val">Hyderabad, Telangana, India</span>
+                </div>
+              </div>
+
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <div class="contact-icon"><i class="ri-github-line"></i></div>
+                <div class="contact-text">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-val">github.com</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-action-card">
+            <h3>Direct Inquiry</h3>
+            <p>Click below to launch your default mail client with a pre-filled subject line for immediate scheduling or interview invites.</p>
+            <a href="mailto:mastanreddyavula672@gmail.com?subject=Job%20Opportunity%20-%20Data%20Analyst%20Role" class="btn btn-primary btn-block">
+              <i class="ri-send-plane-fill"></i> Send Email Direct
+            </a>
+            <div class="resume-download-banner">
+              <p>Need a copy of the original CV document?</p>
+              <a href="assets/resume.pdf" class="btn btn-outline btn-block" download>
+                <i class="ri-file-pdf-2-line"></i> Download Resume PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#hero" class="nav-brand">
+          <span class="monogram">AMR</span>
+          <span class="brand-text">Avula Mastan Reddy</span>
+        </a>
+        <p class="footer-tagline">Aspiring Data Analyst | Hyderabad, Telangana</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p class="copyright">&copy; <span id="current-year">2026</span> Avula Mastan Reddy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="index.js"></script>
+</body>
+</html>
